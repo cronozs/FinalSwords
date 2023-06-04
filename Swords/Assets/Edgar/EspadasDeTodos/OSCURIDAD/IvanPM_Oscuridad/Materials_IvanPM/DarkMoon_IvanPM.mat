@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4582587076665809128
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DarkMoon_IvanPM
+  m_Shader: {fileID: -6465566751694194690, guid: 2117adec0e106cc459f830417c34c89c,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseTexture:
+        m_Texture: {fileID: 2800000, guid: c645d6e50333d53448c97626c5ff958b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 303d132a1414d044c9dfc70f2a37e58c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_2c7a89b9b7064627acd1145965ffaf1a_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b62bb2a4ebbc05b4d98b96673dd4f290, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_4df3d888f45549bdb3d0781af270a2f2_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 2ae6862ca93c59c4caed41dc0a1ed391, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_800b8ae8f98d430ea5e2e3dd54fe9dcf_Texture_1:
+        m_Texture: {fileID: 2800000, guid: c4095b4f7817d9748b169831c4ffc5d0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_9756de6258c74c5c9e084f52c6964810_Texture_1:
+        m_Texture: {fileID: 2800000, guid: c4095b4f7817d9748b169831c4ffc5d0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_9b607882d8b34e2b82977d80c54724d9_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b5fdf2c5caeb46549a8bde960beeb235, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_9e52107a73894f34a798b3a48b50b929_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 2ae6862ca93c59c4caed41dc0a1ed391, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AO: 0.07
+    - _DistortionRate: 0.001
+    - _GalaxySpeed: -0.5
+    - _Metallic: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Smoothness: 0.54
+    - _StarSpeed: -0.5
+    - _StarSpeed2: -0.3
+    m_Colors:
+    - _AnotherStarColor: {r: 0, g: 10.882148, b: 2.7347806, a: 0}
+    - _StarColor: {r: 0, g: 4.61226, b: 32.62747, a: 0}
+  m_BuildTextureStacks: []
