@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: JoseJulio_Mat_Viento
+  m_Shader: {fileID: -6465566751694194690, guid: d724ddeafc07b4a4db4b99bde6f4aa33,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_6d7511df03674247a1ec1bd1b358f362: 1
+    - Vector1_9e31e3f4a8604b6dabfa2f7fb6b2bac7: 1
+    - Vector1_cf4b1a2f44db47f08e9445965e4f9e2f: 0.58
+    - Vector1_e229648df60f4e77809b8633ab51aa4c: 10
+    - Vector1_f61c8d0862b84a868232606a9b1b009c: -1.65
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - Color_a3cf5b216f174ec98b86f7607c3a318a: {r: 0.54485464, g: 0.9622641, b: 0.46751517,
+        a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &1586847591563329732
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
