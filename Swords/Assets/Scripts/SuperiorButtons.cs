@@ -4,22 +4,21 @@ using UnityEngine;
 
 public class SuperiorButtons : MonoBehaviour
 {
-    [SerializeField] private GameObject rot;
-    [SerializeField] private float rottationPower;
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private int selector;
+    [SerializeField] References categorias;
+
+    public void CambioDeEspadas()
     {
-        
+        foreach (var cat in categorias.Categories)
+        {
+            cat.gameObject.SetActive(false);
+        }
+        StartCoroutine(Activater());
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator Activater()
     {
-        
-    }
-
-    public void SButtonsRot()
-    {
-        rot.transform.rotation = Quaternion.Euler(0,rottationPower,0);
+        yield return new WaitForSeconds(0.1f);
+        categorias.Categories[selector].gameObject.SetActive(true);
     }
 }
